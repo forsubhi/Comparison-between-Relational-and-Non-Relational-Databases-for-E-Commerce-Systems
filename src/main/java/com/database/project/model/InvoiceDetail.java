@@ -18,7 +18,7 @@ public class InvoiceDetail {
     @Id
     @Column
     @JsonIgnore
-    private String uuid;
+    private String id;
 
     @Column(name = "invoiceno")
     private String invoiceNo;
